@@ -33,7 +33,6 @@
 			this.label3 = new System.Windows.Forms.Label();
 			this.label4 = new System.Windows.Forms.Label();
 			this.label5 = new System.Windows.Forms.Label();
-			this.txtBoxYear = new System.Windows.Forms.TextBox();
 			this.listBoxCar = new System.Windows.Forms.ListBox();
 			this.btnAddCar = new System.Windows.Forms.Button();
 			this.btnLoadCars = new System.Windows.Forms.Button();
@@ -42,6 +41,7 @@
 			this.cbModel = new System.Windows.Forms.ComboBox();
 			this.cbTransmission = new System.Windows.Forms.ComboBox();
 			this.btnDelete = new System.Windows.Forms.Button();
+			this.cbYear = new System.Windows.Forms.ComboBox();
 			this.SuspendLayout();
 			// 
 			// label1
@@ -94,15 +94,6 @@
 			this.label5.TabIndex = 4;
 			this.label5.Text = "Transmission";
 			// 
-			// txtBoxYear
-			// 
-			this.txtBoxYear.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-			this.txtBoxYear.Location = new System.Drawing.Point(332, 301);
-			this.txtBoxYear.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-			this.txtBoxYear.Name = "txtBoxYear";
-			this.txtBoxYear.Size = new System.Drawing.Size(181, 47);
-			this.txtBoxYear.TabIndex = 8;
-			// 
 			// listBoxCar
 			// 
 			this.listBoxCar.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
@@ -148,6 +139,7 @@
 			// comboBoxColor
 			// 
 			this.comboBoxColor.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawVariable;
+			this.comboBoxColor.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
 			this.comboBoxColor.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F);
 			this.comboBoxColor.FormattingEnabled = true;
 			this.comboBoxColor.Location = new System.Drawing.Point(332, 229);
@@ -159,6 +151,7 @@
 			// 
 			// CbVendor
 			// 
+			this.CbVendor.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
 			this.CbVendor.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F);
 			this.CbVendor.FormattingEnabled = true;
 			this.CbVendor.Location = new System.Drawing.Point(332, 57);
@@ -170,6 +163,7 @@
 			// 
 			// cbModel
 			// 
+			this.cbModel.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
 			this.cbModel.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F);
 			this.cbModel.FormattingEnabled = true;
 			this.cbModel.Location = new System.Drawing.Point(332, 134);
@@ -180,6 +174,7 @@
 			// 
 			// cbTransmission
 			// 
+			this.cbTransmission.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
 			this.cbTransmission.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F);
 			this.cbTransmission.FormattingEnabled = true;
 			this.cbTransmission.Location = new System.Drawing.Point(332, 402);
@@ -203,11 +198,23 @@
 			this.btnDelete.UseVisualStyleBackColor = false;
 			this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click_1);
 			// 
+			// cbYear
+			// 
+			this.cbYear.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+			this.cbYear.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F);
+			this.cbYear.FormattingEnabled = true;
+			this.cbYear.Location = new System.Drawing.Point(332, 317);
+			this.cbYear.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+			this.cbYear.Name = "cbYear";
+			this.cbYear.Size = new System.Drawing.Size(181, 33);
+			this.cbYear.TabIndex = 18;
+			// 
 			// MainView
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.ClientSize = new System.Drawing.Size(1007, 554);
+			this.Controls.Add(this.cbYear);
 			this.Controls.Add(this.btnDelete);
 			this.Controls.Add(this.cbTransmission);
 			this.Controls.Add(this.cbModel);
@@ -216,7 +223,6 @@
 			this.Controls.Add(this.btnLoadCars);
 			this.Controls.Add(this.btnAddCar);
 			this.Controls.Add(this.listBoxCar);
-			this.Controls.Add(this.txtBoxYear);
 			this.Controls.Add(this.label5);
 			this.Controls.Add(this.label4);
 			this.Controls.Add(this.label3);
@@ -238,7 +244,6 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TextBox txtBoxYear;
         private System.Windows.Forms.ListBox listBoxCar;
         private System.Windows.Forms.Button btnAddCar;
         private System.Windows.Forms.Button btnLoadCars;
@@ -247,5 +252,6 @@
 		private System.Windows.Forms.ComboBox cbModel;
 		private System.Windows.Forms.ComboBox cbTransmission;
 		private System.Windows.Forms.Button btnDelete;
+		private System.Windows.Forms.ComboBox cbYear;
 	}
 }

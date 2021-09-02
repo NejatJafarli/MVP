@@ -27,5 +27,6 @@ namespace MVP.Views
         List<string> Vendors { set; }
         List<string> Transmissions { set; }
         List<string> Models { set; }
+        List<string> Years { set; }
     }
 }

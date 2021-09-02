@@ -27,3 +27,17 @@ C:\Users\Nejat Jafarli\source\repos\MVP\MVP\bin\Debug\EntityFramework.dll
 C:\Users\Nejat Jafarli\source\repos\MVP\MVP\bin\Debug\EntityFramework.SqlServer.dll
 C:\Users\Nejat Jafarli\source\repos\MVP\MVP\bin\Debug\EntityFramework.xml
 C:\Users\Nejat Jafarli\source\repos\MVP\MVP\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Nejat Jafarli\Source\Repos\MVPddd\MVP\bin\Debug\MVP.exe.config
+C:\Users\Nejat Jafarli\Source\Repos\MVPddd\MVP\bin\Debug\MVP.exe
+C:\Users\Nejat Jafarli\Source\Repos\MVPddd\MVP\bin\Debug\MVP.pdb
+C:\Users\Nejat Jafarli\Source\Repos\MVPddd\MVP\bin\Debug\EntityFramework.dll
+C:\Users\Nejat Jafarli\Source\Repos\MVPddd\MVP\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Nejat Jafarli\Source\Repos\MVPddd\MVP\bin\Debug\EntityFramework.xml
+C:\Users\Nejat Jafarli\Source\Repos\MVPddd\MVP\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Nejat Jafarli\Source\Repos\MVPddd\MVP\obj\Debug\MVP.csproj.AssemblyReference.cache
+C:\Users\Nejat Jafarli\Source\Repos\MVPddd\MVP\obj\Debug\MVP.Properties.Resources.resources
+C:\Users\Nejat Jafarli\Source\Repos\MVPddd\MVP\obj\Debug\MVP.Views.MainView.resources
+C:\Users\Nejat Jafarli\Source\Repos\MVPddd\MVP\obj\Debug\MVP.csproj.GenerateResource.cache
+C:\Users\Nejat Jafarli\Source\Repos\MVPddd\MVP\obj\Debug\MVP.csproj.CoreCompileInputs.cache
+C:\Users\Nejat Jafarli\Source\Repos\MVPddd\MVP\obj\Debug\MVP.exe
+C:\Users\Nejat Jafarli\Source\Repos\MVPddd\MVP\obj\Debug\MVP.pdb

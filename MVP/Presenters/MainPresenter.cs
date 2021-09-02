@@ -27,6 +27,7 @@ namespace MVP.Presenters
 			_view.VendorIndexChanged += VendorSelectedIndexChanged;
 			_view.ListBoxIndexChanged += ListBoxIndexChanged;
 			_view.DeleteButtonClicked += deleteButtonClicked;
+			_view.DeleteButtonEnable = false;
 
 			string[] colores = Enum.GetNames(typeof(System.Drawing.KnownColor));
 			_view.CbColor.Items.AddRange(colores);
@@ -38,7 +39,12 @@ namespace MVP.Presenters
 			_view.Vendors = Vendors;
 
 			_view.Transmissions = new List<string> { "Manual", "Automatic" };
+			List<string> Years = new List<string>();
 
+			for (int i = 2000; i < DateTime.Now.Year; i++)
+				Years.Add(i.ToString());
+
+			_view.Years=Years;
 		}
 		private void deleteButtonClicked(object sender, EventArgs e)
 		{
@@ -132,16 +138,13 @@ namespace MVP.Presenters
 
 			_carContext.Cars.Add(car);
 			_carContext.SaveChanges();
+
+			_view.Cars = _carContext.Cars.ToList();
 		}
 
 		private void ViewLoadButtonClicked(object sender, EventArgs e)
 		{
 			_view.Cars = _carContext.Cars.ToList();
-
-
-
 		}
-
-
 	}
 }

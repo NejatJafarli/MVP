@@ -17,7 +17,7 @@ namespace MVP.Models
 
         public override string ToString()
         {
-            return $"{Vendor} - {Model} - {Year} - {Color}";
+            return $"{Vendor}-{Model}-{Year}-{Color}-{Transmission}";
         }
 
     }

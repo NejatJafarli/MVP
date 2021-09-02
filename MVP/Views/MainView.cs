@@ -35,8 +35,8 @@ namespace MVP.Views
 
 		public string YearText
 		{
-			get => txtBoxYear.Text;
-			set => txtBoxYear.Text = value;
+			get => cbYear.Text;
+			set => cbYear.Text = value;
 		}
 
 		public string TransmissionText
@@ -73,6 +73,8 @@ namespace MVP.Views
 		public EventHandler<EventArgs> ListBoxIndexChanged { get; set; }
 		public List<string> Transmissions { set => cbTransmission.DataSource = value; }
 		public bool DeleteButtonEnable { set=> btnDelete.Enabled=value; }
+		public List<string> Years { set => cbYear.DataSource=value; }
+
 		private void btnAddCar_Click(object sender, EventArgs e)
 		{
 			AddButtonClicked.Invoke(sender, e);
@@ -105,5 +107,6 @@ namespace MVP.Views
 		{
 			DeleteButtonClicked.Invoke(sender, e);
 		}
+
 	}
 }
