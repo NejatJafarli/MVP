@@ -33,6 +33,8 @@ namespace MVP.Presenters
 			_view.CbColor.Items.AddRange(colores);
 			_view.CbColor.SelectedIndex = 34;
 			List<string> Vendors = new List<string>();
+
+
 			Vendors.Add("VAZ");
 			Vendors.Add("BMW");
 			Vendors.Add("MERCEDES");
