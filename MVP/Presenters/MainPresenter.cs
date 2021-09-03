@@ -45,6 +45,8 @@ namespace MVP.Presenters
 				Years.Add(i.ToString());
 
 			_view.Years=Years;
+
+			_view.Cars = _carContext.Cars.ToList();
 		}
 		private void deleteButtonClicked(object sender, EventArgs e)
 		{
